@@ -1,6 +1,8 @@
 # Desafio técnico frontend jr
 
-##Descrição do Problema
+[Click](https://desafio-tecnico-omnix.netlify.app/) para visualizar.
+
+## Descrição do Problema
 
 Imagine que você foi contratado para desenvolver parte de uma
 landing page com foco na venda de planos de internet. O
