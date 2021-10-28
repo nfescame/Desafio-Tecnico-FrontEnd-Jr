@@ -1,9 +1,10 @@
 import { BrowserRouter, Route } from "react-router-dom";
 import React from "react";
 
-import Init from "../pages/Init";
-import Home from "../pages/Home";
-import Offers from "../pages/Offers";
+import Init from "../pages/Init.page";
+import Home from "../pages/Home.page";
+import Offers from "../pages/Offers.page";
+
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 
