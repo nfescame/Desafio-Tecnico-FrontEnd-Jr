@@ -8,7 +8,7 @@ export default function NavBar() {
     <>
       <nav className='navbar nav-bar'>
         <div className='container-fluid'>
-          <span className='navbar-brand'>Ominix</span>
+          <span className='navbar-brand'>Omnix</span>
           <button
             className='navbar-toggler navbar-dark'
             type='button'

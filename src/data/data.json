@@ -4,7 +4,11 @@
     "offers": [
       { "name": "Oferta 1", "price": 5099, "id": 1, "isSelected": false },
       { "name": "Oferta 2", "price": 10099, "id": 2, "isSelected": false },
-      { "name": "Oferta 3", "price": 15099, "id": 3, "isSelected": false }
+      { "name": "Oferta 3", "price": 15099, "id": 3, "isSelected": false },
+      { "name": "Oferta 4", "price": 1099, "id": 4, "isSelected": true },
+      { "name": "Oferta 5", "price": 13599, "id": 5, "isSelected": false },
+      { "name": "Oferta 6", "price": 12000, "id": 6, "isSelected": false },
+      { "name": "Oferta 7", "price": 9999, "id": 7, "isSelected": false }
     ]
   }
 }

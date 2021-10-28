@@ -14,12 +14,6 @@ export default function Form(props) {
   return (
     <>
       <div className='card'>
-        <div
-          className='card-header'
-          style={{ textAlign: "center", fontSize: "2rem" }}
-        >
-          Endereço
-        </div>
         <form className='row g-1 m-2'>
           {/* rua */}
           <div className='col-md-12 '>

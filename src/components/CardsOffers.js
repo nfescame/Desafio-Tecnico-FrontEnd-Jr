@@ -16,8 +16,8 @@ export default function CardOffers(props) {
     <>
       {data.map((offer, index) => {
         return (
-          <div key={index} className='card card-box '>
-            <ul className='list-group list-group-flush'>
+          <div key={index} className='card card-box'>
+            <ul className='list-group '>
               <li className='list-group-item'>
                 <p>Id: {offer.id}</p>
               </li>
