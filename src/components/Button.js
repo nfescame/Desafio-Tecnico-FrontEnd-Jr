@@ -5,7 +5,7 @@ export default function Button(props) {
   return (
     <>
       <NavLink to={`${props.route}`}>
-        <button type='button' className='btn btn-warning'>
+        <button type='button' className='btn'>
           {props.name}
         </button>
       </NavLink>

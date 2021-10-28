@@ -16,24 +16,22 @@ export default function NavBar() {
           >
             <span className='navbar-toggler-icon'></span>
           </button>
-          {isOpen ? (
-            <aside className='sidebar'>
-              <nav>
-                <ul className='menu'>
-                  <li className='menu-item'>
-                    <NavLink to='/' className='menu-link'>
-                      Buscar Cep
-                    </NavLink>
-                  </li>
-                  <li className='menu-item'>
-                    <NavLink to='/offers' className='menu-link'>
-                      Offers
-                    </NavLink>
-                  </li>
-                </ul>
-              </nav>
-            </aside>
-          ) : null}
+          <aside className={`sidebar ${isOpen ? "show" : null}`}>
+            <nav>
+              <ul className={`menu ${isOpen ? "show" : null}`}>
+                <li className='menu-item'>
+                  <NavLink to='/' className='menu-link'>
+                    Buscar Cep
+                  </NavLink>
+                </li>
+                <li className='menu-item'>
+                  <NavLink to='/offers' className='menu-link'>
+                    Offers
+                  </NavLink>
+                </li>
+              </ul>
+            </nav>
+          </aside>
         </div>
       </nav>
     </>

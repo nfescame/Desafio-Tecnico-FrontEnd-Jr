@@ -11,7 +11,6 @@ export default function Form(props) {
     cep: `${cep.cep}`,
   });
 
-  console.log(inputValue);
   return (
     <>
       <div className='card'>
@@ -24,12 +23,12 @@ export default function Form(props) {
         <form className='row g-1 m-2'>
           {/* rua */}
           <div className='col-md-12 '>
-            <label htmlFor='validationServer01' className='form-label'>
+            <label htmlFor='validationServer02' className='form-label'>
               Rua
             </label>
             <input
               type='text'
-              className='form-control is-valid'
+              className='form-control '
               value={inputValue.rua}
               onChange={(e) => {
                 setInputValue({ ...inputValue, rua: e.target.value });
@@ -45,7 +44,7 @@ export default function Form(props) {
             </label>
             <input
               type='text'
-              className='form-control is-valid'
+              className='form-control'
               value={inputValue.bairro}
               onChange={(e) => {
                 setInputValue({ ...inputValue, bairro: e.target.value });
@@ -61,7 +60,7 @@ export default function Form(props) {
             </label>
             <input
               type='text'
-              className='form-control is-valid'
+              className='form-control'
               value={inputValue.uf}
               onChange={(e) => {
                 setInputValue({ ...inputValue, uf: e.target.value });
@@ -77,7 +76,7 @@ export default function Form(props) {
             </label>
             <input
               type='text'
-              className='form-control is-valid'
+              className='form-control'
               value={inputValue.cidade}
               onChange={(e) => {
                 setInputValue({ ...inputValue, cidade: e.target.value });
@@ -93,7 +92,7 @@ export default function Form(props) {
             </label>
             <input
               type='text'
-              className='form-control is-valid'
+              className='form-control '
               value={inputValue.cep}
               onChange={(e) => {
                 setInputValue({ ...inputValue, cep: e.target.value });
