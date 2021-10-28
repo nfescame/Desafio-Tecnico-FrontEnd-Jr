@@ -7,7 +7,7 @@ import Button from "../components/Button";
 export default function Offers() {
   return (
     <>
-      <section className='gallery-offers'>
+      <section className='gallery-offers row row-cols-2 '>
         <CardOffers data={data.userData.offers} />
       </section>
       <Button name={"Ops, errei meu cep!"} route={""} />

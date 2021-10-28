@@ -119,6 +119,15 @@ body {
 }
 
 @media only screen and (max-width: 800px) {
+  .btn {
+    background-color: #7952b3;
+    color: white;
+    position: absolute;
+    bottom: 5rem;
+    right: 1rem;
+    position: fixed;
+  }
+
   #home {
     height: 80vh;
     display: flex;
@@ -139,13 +148,17 @@ body {
     width: 100%;
     margin: 2rem 0;
     position: absolute;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2vw;
+    gap: 10vw;
     padding: 1vw 0vw;
   }
   .card-box {
-    box-shadow: 1px 7px 40px 5px #3d3b3f;
+    width: 9rem;
+    box-shadow: 1px 7px 28px -7px #3d3b3f;
+  }
+  .card-box ul li {
+    padding: 0.5rem;
+  }
+  .card-box ul li p {
+    margin: 2px;
   }
 }

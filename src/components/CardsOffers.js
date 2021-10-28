@@ -4,11 +4,11 @@ export default function CardOffers(props) {
   const { data } = props;
 
   const converterPrice = (i) => {
-    console.log(data[i].price);
     const str = data[i].price.toString();
     const len = str.length;
     const int = str.slice(0, len - 2);
     const dec = str.slice(len - 2);
+
     return `R$ ${int},${dec}`;
   };
 
@@ -16,7 +16,7 @@ export default function CardOffers(props) {
     <>
       {data.map((offer, index) => {
         return (
-          <div key={index} className='card card-box'>
+          <div key={index} className='card card-box '>
             <ul className='list-group list-group-flush'>
               <li className='list-group-item'>
                 <p>Id: {offer.id}</p>
